@@ -124,7 +124,7 @@ header h1 {
 }
 
 .sidebar a:hover {
-  background: #f8fbff;
+  background: #e8f4ff;
   border-left: 8px solid #5aa9ff;
   transform: translateX(6px);
   box-shadow: 0 6px 14px rgba(0, 0, 0, 0.12);
