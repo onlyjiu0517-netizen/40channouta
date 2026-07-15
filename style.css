@@ -38,6 +38,12 @@ header h1 {
   margin-top: 0;
 }
 
+.menu-subtitle {
+  margin: 2px 0 18px;
+  font-size: 13px;
+  color: #666;
+}
+
 
 .sidebar a {
   display: block;
