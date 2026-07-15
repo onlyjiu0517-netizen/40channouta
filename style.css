@@ -118,14 +118,14 @@ header h1 {
 .sidebar a::before {
   content: "▶";
   position: absolute;
-  left: -8px;
+  left: -18px;
   opacity: 0;
-  transition: 0.2s;
+  transition: all 0.2s ease;
   color: #3b82f6;
   font-size: 14px;
 }
 
 .sidebar a:hover::before {
   opacity: 1;
-  left: 8px;
+  left: -8px;
 }
