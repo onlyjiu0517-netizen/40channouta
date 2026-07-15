@@ -83,13 +83,26 @@ header h1 {
 .sidebar a {
   display: flex;
   flex-direction: column;
+
   text-decoration: none;
   color: #333;
-  padding: 12px 14px;
-  margin-bottom: 8px;
-  background: white;
-  border-radius: 10px;
-  transition: 0.2s;
+
+  padding: 14px 16px;
+  margin-bottom: 12px;
+
+  background: #ffffff;
+
+  border: 1px solid #d9eaf8;
+  border-radius: 14px;
+
+  box-shadow: 0 2px 6px rgba(0,0,0,0.06);
+
+  position: relative;
+
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease,
+    background-color 0.2s ease;
 }
 
 .sidebar a span {
