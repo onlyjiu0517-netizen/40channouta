@@ -39,6 +39,12 @@ header h1 {
 }
 
 
+.menu-subtitle {
+  margin: 2px 0 18px;
+  color: #666;
+}
+
+
 .sidebar a:hover {
   transform: translateX(5px);
 }
