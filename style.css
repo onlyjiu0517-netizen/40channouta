@@ -102,3 +102,30 @@ header h1 {
   color: #777;
   margin-top: 3px;
 }
+
+
+/* ===== メニューのホバー ===== */
+
+.sidebar a {
+  position: relative;
+}
+
+.sidebar a:hover {
+  background: #dff2ff;
+  transform: translateX(6px);
+}
+
+.sidebar a::before {
+  content: "▶";
+  position: absolute;
+  left: -8px;
+  opacity: 0;
+  transition: 0.2s;
+  color: #3b82f6;
+  font-size: 14px;
+}
+
+.sidebar a:hover::before {
+  opacity: 1;
+  left: 8px;
+}
