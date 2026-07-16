@@ -113,17 +113,6 @@ header p {
 }
 
 
-.latest-live {
-  display: flex;
-  gap: 20px;
-  align-items: flex-start;
-}
-
-
-.youtube {
-  width: 30%;
-}
-
 
 .youtube iframe {
   width: 100%;
@@ -132,10 +121,6 @@ header p {
   display: block;
 }
 
-
-.live-info {
-  width: 70%;
-}
 
 
 .live-info h3 {
