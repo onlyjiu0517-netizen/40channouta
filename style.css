@@ -100,6 +100,16 @@ header p {
 }
 
 
+.section-title {
+  font-family: "Zen Maru Gothic", sans-serif;
+  font-size: 30px;
+  color: #333;
+  margin-bottom: 25px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #444;
+}
+
+
 .card-title {
   margin-top: 0;
   margin-bottom: 15px;
