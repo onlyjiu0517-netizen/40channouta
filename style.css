@@ -116,12 +116,12 @@ header p {
 .latest-live {
   display: flex;
   gap: 20px;
-  align-items: center;
+  align-items: flex-start;
 }
 
 
 .youtube {
-  flex: 1;
+  width: 65%;
 }
 
 
