@@ -121,21 +121,20 @@ header p {
 
 
 .youtube {
-  width: 45%;
+  width: 35%;
 }
 
 
 .youtube iframe {
   width: 100%;
   aspect-ratio: 16 / 9;
-  max-height: 220px;
   border-radius: 12px;
   display: block;
 }
 
 
 .live-info {
-  width: 45%;
+  width: 65%;
 }
 
 
