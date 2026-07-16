@@ -113,6 +113,36 @@ header p {
 }
 
 
+.latest-live {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+
+.youtube {
+  flex: 1;
+}
+
+
+.youtube iframe {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  border-radius: 12px;
+  display: block;
+}
+
+
+.live-info {
+  width: 220px;
+}
+
+
+.live-info h3 {
+  margin-top: 0;
+}
+
+
 .sidebar a {
   display: flex;
   flex-direction: column;
