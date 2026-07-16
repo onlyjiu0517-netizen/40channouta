@@ -100,6 +100,24 @@ header p {
 }
 
 
+.card-title {
+  margin-top: 0;
+  margin-bottom: 15px;
+  font-size: 22px;
+  color: #1976d2;
+}
+
+.date {
+  color: #666;
+  margin-bottom: 8px;
+}
+
+.video-title {
+  margin: 0 0 18px;
+  font-size: 18px;
+}
+
+
 .music-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
