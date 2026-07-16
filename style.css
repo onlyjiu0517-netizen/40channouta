@@ -100,14 +100,7 @@ header p {
 }
 
 
-.section-title {
-  font-family: "Zen Maru Gothic", sans-serif;
-  font-size: 30px;
-  color: #333;
-  margin-bottom: 25px;
-  padding-bottom: 10px;
-
-  .section-title::after {
+.section-title::after {
   content: "";
   display: block;
 
