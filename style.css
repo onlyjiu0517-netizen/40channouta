@@ -9,8 +9,13 @@ body {
 header {
   text-align: center;
   padding: 40px 30px;
-  background: #f7fbff;
-  border-bottom: 2px solid #5aa9ff;
+  background-color: #f7fbff;
+
+  background-image:
+    linear-gradient(#d9eaf8 1px, transparent 1px),
+    linear-gradient(90deg, #d9eaf8 1px, transparent 1px);
+
+  background-size: 24px 24px;
 }
 
 
