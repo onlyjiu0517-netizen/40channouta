@@ -75,6 +75,39 @@ header p {
 }
 
 
+.update-history {
+  margin-top: 40px;
+}
+
+.update-history h3 {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 12px;
+  text-align: center;
+  font-family: "Zen Maru Gothic", sans-serif;
+}
+
+.history-box {
+  background: #fff;
+  border: 1px solid #d8d8d8;
+  border-radius: 10px;
+  padding: 12px;
+
+  max-height: 180px;
+  overflow-y: auto;
+}
+
+.history-box p {
+  margin: 0 0 14px;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.history-box p:last-child {
+  margin-bottom: 0;
+}
+
+
 /* ノート部分 */
 
 .note {
