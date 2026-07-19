@@ -267,7 +267,7 @@ header p {
 
 /* ===== メインノート部分 ===== */
 
-main {
+main.content {
   flex: 1;
   padding: 40px;
 
