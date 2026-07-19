@@ -283,8 +283,9 @@ main {
 /* ===== Song Index部分 ===== */
 
 .song-index{
+    .song-index{
     width:100%;
-    max-width:1000px;
+    margin:0 auto;
 }
 
 .song-count{
