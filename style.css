@@ -356,3 +356,20 @@ main {
     color:#888;
     font-size:14px;
 }
+
+
+.kana-group{
+    display:flex;
+    justify-content:center;
+    gap:16px;
+    flex-wrap:wrap;
+}
+
+.kana-en{
+    display:none;
+}
+
+.switch-btn{
+    color:#4d79c7 !important;
+    font-weight:bold;
+}
