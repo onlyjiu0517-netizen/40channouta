@@ -326,13 +326,14 @@ main.content {
 }
 
 .song-list{
-    .song-list{
     display:grid;
     grid-template-columns:repeat(2, 1fr);
-    gap:16px;
+    gap:0;
 
-    background:transparent;
-    border:none;
+    background:#fff;
+    border:1px solid #e5e5e5;
+    border-radius:12px;
+    overflow:hidden;
 }
 
 .song-item{
