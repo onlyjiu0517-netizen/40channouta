@@ -280,3 +280,79 @@ main {
 
 
 
+/* ===== Song Index部分 ===== */
+
+.song-index{
+    width:100%;
+}
+
+.song-count{
+    text-align:center;
+    color:#666;
+    margin-top:-5px;
+    margin-bottom:25px;
+}
+
+.kana-index{
+    display:flex;
+    justify-content:center;
+    gap:18px;
+    margin-bottom:25px;
+    flex-wrap:wrap;
+}
+
+.kana-index a{
+    text-decoration:none;
+    color:#4d79c7;
+    font-weight:bold;
+    transition:.2s;
+}
+
+.kana-index a:hover{
+    color:#222;
+}
+
+.song-search{
+    width:100%;
+    box-sizing:border-box;
+    padding:14px 18px;
+    border:1px solid #d8d8d8;
+    border-radius:12px;
+    margin-bottom:30px;
+    font-size:15px;
+}
+
+.song-list{
+    background:#fff;
+    border-radius:12px;
+    overflow:hidden;
+    border:1px solid #e5e5e5;
+}
+
+.song-item{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:18px 20px;
+    border-bottom:1px solid #ececec;
+    text-decoration:none;
+    color:#333;
+    transition:.2s;
+}
+
+.song-item:last-child{
+    border-bottom:none;
+}
+
+.song-item:hover{
+    background:#f7fbff;
+}
+
+.song-name{
+    font-weight:500;
+}
+
+.song-date{
+    color:#888;
+    font-size:14px;
+}
