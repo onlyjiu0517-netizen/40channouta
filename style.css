@@ -315,11 +315,13 @@ main {
 
 .song-search{
     width:50%;
+    max-width:500px;
     box-sizing:border-box;
     padding:14px 18px;
     border:1px solid #d8d8d8;
     border-radius:12px;
-    margin-bottom:30px;
+    margin:0 auto 30px;
+    display:block;
     font-size:15px;
 }
 
