@@ -335,6 +335,11 @@ main.content {
     border-radius:12px;
     overflow:hidden;
   column-gap: 0;
+
+  background-image: linear-gradient(#e5e5e5,#e5e5e5);
+background-size:1px 100%;
+background-position:center;
+background-repeat:no-repeat;
 }
 
 .song-item{
