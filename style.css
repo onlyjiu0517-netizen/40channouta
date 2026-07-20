@@ -334,7 +334,6 @@ main.content {
     border:1px solid #e5e5e5;
     border-radius:12px;
     overflow:hidden;
-  column-gap: 0;
 
   background-image: linear-gradient(#e5e5e5,#e5e5e5);
 background-size:1px 100%;
