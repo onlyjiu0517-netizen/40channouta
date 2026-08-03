@@ -18,14 +18,14 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
 const searchInput = document.querySelector(".song-search");
-const cards = document.querySelectorAll(".song-card");
-
+const cards = document.querySelectorAll(".song-item");
+  
   
   searchInput.addEventListener("input", () => {
   const keyword = searchInput.value.toLowerCase();
 
   cards.forEach(card => {
-    const text = card.textContent.toLowerCase();
+    const text = card.querySelector(".song-name").textContent.toLowerCase();
 
     if (text.includes(keyword)) {
       card.style.display = "";
