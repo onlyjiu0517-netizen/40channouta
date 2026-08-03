@@ -19,5 +19,20 @@ document.addEventListener("DOMContentLoaded", () => {
 
 const searchInput = document.querySelector(".song-search");
 const cards = document.querySelectorAll(".song-card");
+
+  
+  searchInput.addEventListener("input", () => {
+  const keyword = searchInput.value.toLowerCase();
+
+  cards.forEach(card => {
+    const text = card.textContent.toLowerCase();
+
+    if (text.includes(keyword)) {
+      card.style.display = "";
+    } else {
+      card.style.display = "none";
+    }
+  });
+});
   
 });
