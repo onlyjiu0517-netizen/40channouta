@@ -1,10 +1,19 @@
 document.addEventListener("DOMContentLoaded", () => {
-  console.log("読み込みOK");
+  const jpGroup = document.querySelector(".kana-jp");
+  const enGroup = document.querySelector(".kana-en");
 
   const toAZ = document.querySelector(".kana-jp .switch-btn");
+  const toJP = document.querySelector(".kana-en .switch-btn");
 
   toAZ.addEventListener("click", (e) => {
     e.preventDefault();
-    console.log("A-Zクリック");
+    jpGroup.style.display = "none";
+    enGroup.style.display = "flex";
+  });
+
+  toJP.addEventListener("click", (e) => {
+    e.preventDefault();
+    enGroup.style.display = "none";
+    jpGroup.style.display = "flex";
   });
 });
