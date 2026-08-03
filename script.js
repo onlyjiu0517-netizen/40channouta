@@ -16,4 +16,8 @@ document.addEventListener("DOMContentLoaded", () => {
     enGroup.style.display = "none";
     jpGroup.style.display = "flex";
   });
+
+const searchInput = document.querySelector(".song-search");
+const cards = document.querySelectorAll(".song-card");
+  
 });
