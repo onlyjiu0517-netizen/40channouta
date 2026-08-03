@@ -1,3 +1,6 @@
+console.log("script.js 読み込み成功");
+
+
 document.addEventListener("DOMContentLoaded", () => {
   const jpGroup = document.querySelector(".kana-jp");
   const enGroup = document.querySelector(".kana-en");
